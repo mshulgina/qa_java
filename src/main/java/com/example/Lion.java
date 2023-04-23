@@ -3,7 +3,7 @@ package com.example;
 import java.util.List;
 
 public class Lion {
-    final Feline feline;
+    final private Feline feline;
     boolean hasMane;
 
     public Lion(String sex, Feline feline) throws Exception {

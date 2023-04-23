@@ -13,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 public class LionParameterizedTest {
 
     @Mock
-    Feline feline;
+    private Feline feline;
 
     @Before
     public void init() {

@@ -14,7 +14,7 @@ import static org.junit.Assert.assertEquals;
 public class LionTest {
 
     @Mock
-    Feline feline;
+    private Feline feline;
 
     @Test
     public void LionHaveManeOther()  {
